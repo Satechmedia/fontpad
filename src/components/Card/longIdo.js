@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable no-unused-vars */
 import BigNumber from "bignumber.js";
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
