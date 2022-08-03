@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import BigNumber from "bignumber.js";
 import { create } from "ipfs-http-client";
 import React, { useEffect, useState } from "react";

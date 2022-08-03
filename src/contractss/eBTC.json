@@ -10184,18 +10184,6 @@
       "address": "0x3FBBA516f8E8f19a1316Cf521814ceE6894A1aEA",
       "transactionHash": "0x9e2520054240033fd03cb250a433649eb55fe0351fe350d942a0916a03616abf"
     },
-    "56": {
-      "events": {},
-      "links": {},
-      "address": "0xC8037B53423daCCae4b95E1ba132A66aCa82EAa3",
-      "transactionHash": "0x044af8401bd8d002c42ddbc2b123ccbccf9d7e32c5dcdb4609d6aeca0505cf61"
-    },
-    "97": {
-      "events": {},
-      "links": {},
-      "address": "0xd1b9ea82ac23d3da166e3481e08a4c46e0a625e5",
-      "transactionHash": "0xb92fccb0510ea5aafd89dca5ce53a8b59582a34d2e7aa27c36066e1803222a2f"
-    },
     "1337": {
       "events": {
         "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925": {

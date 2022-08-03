@@ -60,7 +60,7 @@ const Navigation = () => {
             {data.ETHamount >= 0 ? (
               <NavDropdown
                 title={
-                  "$ETH " +
+                  "$BNB " +
                   BigNumber(data.ETHamount)
                     .dividedBy(10 ** 18)
                     .toFormat(2)

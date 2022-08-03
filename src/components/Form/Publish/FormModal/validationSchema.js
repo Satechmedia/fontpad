@@ -1,3 +1,5 @@
+/* eslint-disable import/no-anonymous-default-export */
+/* eslint-disable no-unused-vars */
 import * as Yup from "yup";
 import createIDOFormModal from "./createIDOFormModal";
 const {

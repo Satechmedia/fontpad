@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { withStyles } from "@material-ui/core/styles";
 import AdapterDateFns from "@mui/lab/AdapterDateFns";
 import DateTimePicker from "@mui/lab/DateTimePicker";
@@ -18,6 +19,16 @@ import * as s from "../../styles/global";
 import { utils } from "../../utils";
 
 const chainRouter = {
+  97: {
+    Pancakeswap: {
+      name: "pancakeswap",
+      info: {
+        FACTORY: "0xBCfCcbde45cE874adCB698cC183deBcF17952812",
+        WETH: "0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e",
+        ROUTER: "0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F",
+      },
+    },
+  },
   56: {
     Pancakeswap: {
       name: "pancakeswap",
@@ -134,7 +145,7 @@ const PublishForm = (props) => {
   };
 
   const pinJSONToIPFS = async (JSONBody) => {
-    const url = `https://api.pinata.cloud/pinning/pinJSONToIPFS`;
+    const url = 'https://api.pinata.cloud/pinning/pinJSONToIPFS';
     //making axios POST request to Pinata ⬇️
     return axios
       .post(url, JSONBody, {

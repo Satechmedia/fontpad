@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const idoFactory = artifacts.require("IDOFactory");
 const tokenLockerFactory = artifacts.require("TokenLockerFactory");
 

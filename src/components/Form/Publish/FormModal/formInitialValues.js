@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import createIDOFormModal from "./createIDOFormModal";
 const {
   formField: {
